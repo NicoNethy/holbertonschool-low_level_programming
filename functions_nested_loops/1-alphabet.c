@@ -1,16 +1,21 @@
 #include "main.h"
-
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+#include <unistd.h>
 
 /**
- * main - Entry point
- * putchar
- * Return: Always 0 (Success)
+ * print_alphabet - Entry point
+ * _putchar
+ * Return: void
  */
 
 void print_alphabet(void)
 {
-	int n;
+	char n;
 
-	for (int x = 'a'; x <= 'z'; x++)
-	putchar(x);
+	for (n = 'a'; n <= 'z'; n++)
+	{
+		_putchar(n);
+	}
 }
