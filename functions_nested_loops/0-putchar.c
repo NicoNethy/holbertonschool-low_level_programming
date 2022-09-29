@@ -14,6 +14,6 @@ int main(void)
 {
 	int n;
 
-	printf("_putchar")
-	return(0);
+	printf("_putchar");
+	return (0);
 }
