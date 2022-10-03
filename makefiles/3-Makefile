@@ -14,5 +14,6 @@ fclean:
 	${RM}
 
 all: ${OBJ}
+	${CC} ${SRC} -o ${NAME}
 
 re: fclean all
