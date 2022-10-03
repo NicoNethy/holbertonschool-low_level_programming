@@ -4,4 +4,4 @@ OBJ = main.o school.o
 SRC = main.c school.c
 
 all: ${SRC}
-	${CC} ${SRC} -o ${NAME}
+	${CC} ${OBJ} ${SRC} -o ${NAME}
