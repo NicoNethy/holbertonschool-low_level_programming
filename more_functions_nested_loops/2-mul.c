@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- *
+ * mul - a functon that multiplies the integrer
+ * @a: first imput
+ * @b: second imput
  * Return: Always 0.
  */
 
