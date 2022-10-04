@@ -5,12 +5,12 @@
 #include <unistd.h>
 
 /**
- *  * print_numbers - Entry point
- *   * _putchar
- *    * Return: void
- *     */
+ * print_numbers - Entry point
+ * _putchar
+ * Return: void
+ */
 
-void print_numbers(void);
+void print_numbers(void)
 {
 	char n;
 
