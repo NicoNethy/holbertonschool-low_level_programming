@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- *
- *
+ * print_rev - start
+ * @s: is the string
+ * putchar
+ * Return: nothing
  */
 
 void print_rev(char *s)
