@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * reset_to_98: starting point
+ * reset_to_98 - starting point
  * Pointer *p that points to int n
- * n: is the int that gets pointed
+ * @n: is the int that gets pointed
  * Return: Nothing
  */
 
