@@ -2,8 +2,8 @@
 #include "2-strlen.c"
 
 /**
- * main - check the code
- *
+ * puts_half - Start point
+ * @str: the string
  * Return: Always 0.
  */
 
