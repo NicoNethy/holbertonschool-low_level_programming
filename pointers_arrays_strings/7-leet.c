@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * *leet - outstanding manouver
- * *@str: string
- * *Return: mozart needs a comeback tbh
- * */
+ * leet - outstanding manouver
+ * @str: string
+ * Return: mozart needs a comeback tbh
+ */
 
 char *leet(char *str)
 {
