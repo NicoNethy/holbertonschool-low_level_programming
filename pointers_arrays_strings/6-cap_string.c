@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * * cap_string - Speak Like A Certain Someone
- * *@s: the silly string
- * *Return: i dont have a clever reference for this one
- * */
+ * cap_string - Speak Like A Certain Someone
+ * @s: the silly string
+ * Return: i dont have a clever reference for this one
+ */
 
 char *cap_string(char *s)
 {
