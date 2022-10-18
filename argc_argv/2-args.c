@@ -5,11 +5,13 @@
  * @argv: array of pointers
  * Return: 0
  */
+
 int main(int argc, char *argv[])
+
 {
-		while (argc--)
+	while (argc--)
 
-					printf("%s\n", *argv++);
+		printf("%s\n", *argv++);
 
-		return (0);
+	return (0);
 }
