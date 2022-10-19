@@ -1,11 +1,10 @@
 #include "main.h"
 
-/*
- *
- *
- *
- *
- *
+/**
+ *create_array - the assingment
+ *@size: size of this
+ *@c: the char
+ *Return: something
  */
 
 char *create_array(unsigned int size, char c)
