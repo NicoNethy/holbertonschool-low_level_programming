@@ -1,21 +1,20 @@
 #include "main.h"
-#include <stdlib.h>
 
 /**
- * free_grid - frees a 2D grid previously created by alloc_grid function.
- * @grid: grid to free
- * @height: height of grid
- * Return: void
+ * _calloc - allocates memory for an array
+ * @nmemb: memory
+ * @size: size
+ * Return: the address (not yours) ((yet))
  */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *a;
 
-	a = malloc(nmemb * size);
 	if (!nmemb || !size)
 		return (NULL);
-	else if (!a)
+	a = malloc(nmemb * size);
+	if (!a)
 		return (NULL);
 	nmemb *= size;
 	while (nmemb--)
