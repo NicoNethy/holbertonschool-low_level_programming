@@ -10,14 +10,15 @@
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	void *ptr;
+	char *a;
 
-	ptr = malloc(nmemb);
-	if nmemb = '0'
+	a = malloc(nmemb * size);
+	if (!nmemb || !size)
 		return (NULL);
-	else if size = '0'
+	else if (!a)
 		return (NULL);
-	else if (!ptr)
-		return (NULL);
+	nmemb *= size;
+	while (nmemb--)
+		a[nmemb] = 0;
+	return (a);
 }
-	
