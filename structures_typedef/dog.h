@@ -2,11 +2,11 @@
 #define DOG
 
 /**
- *  * struct dog - dog!
- *   * @name: Lucky
- *    * @age: 4
- *     * @owner: Mauricio de Betolaza
- *      */
+ * struct dog - dog!
+ * @name: Lucky
+ * @age: 4
+ * @owner: Mauricio de Betolaza
+ */
 
 struct dog
 {
