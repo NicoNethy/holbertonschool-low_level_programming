@@ -1,9 +1,9 @@
-nclude "lists.h"
+#include "lists.h"
 
 /**
- *  * free_listint2 - frees a list but also sets head to nil
- *   * @head: So tall we'll see past the dark! Stare right into...
- *    */
+ * free_listint2 - frees a list but also sets head to nil
+ * @head: So tall we'll see past the dark! Stare right into...
+ */
 
 void free_listint2(listint_t **head)
 {
