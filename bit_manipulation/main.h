@@ -1,5 +1,5 @@
-#ifndef LISTS_H
-#define LISTS_H
+#ifndef MAIN_H
+#define MAIN_H
 
 #include <unistd.h>
 #include <stdio.h>
@@ -75,8 +75,6 @@ int _strlen(char *s);
 void _puts(char *str);
 
 void print_rev(char *s);
-
-void rev_string(char *s);
 
 void puts2(char *str);
 
@@ -201,5 +199,33 @@ size_t print_listint(const listint_t *h);
 size_t listint_len(const listint_t *h);
 
 listint_t *add_nodeint(listint_t **head, const int n);
+
+listint_t *add_nodeint_end(listint_t **head, const int n);
+
+void free_listint(listint_t *head);
+
+void free_listint2(listint_t **head);
+
+int pop_listint(listint_t **head);
+
+listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);
+
+int sum_listint(listint_t *head);
+
+listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n);
+
+int delete_nodeint_at_index(listint_t **head, unsigned int index);
+
+unsigned int binary_to_uint(const char *b);
+
+void print_binary(unsigned long int n);
+
+int get_bit(unsigned long int n, unsigned int index);
+
+int set_bit(unsigned long int *n, unsigned int index);
+
+int clear_bit(unsigned long int *n, unsigned int index);
+
+unsigned int flip_bits(unsigned long int n, unsigned long int m);
 
 #endif
