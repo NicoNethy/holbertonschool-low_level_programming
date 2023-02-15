@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- *  * main - start
- *   * Return: allways
- *    */
+ * main - start
+ * Return: allways
+ */
 
 int main(void)
 {
