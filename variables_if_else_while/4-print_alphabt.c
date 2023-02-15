@@ -6,13 +6,17 @@
  */
 int main(void)
 {
-	char A = 'a';
-
-	while (A <= 'z' && A != 'q' && A != 'e')
+	char A;
+	
+	for (A = 'a'; A <= 'z'; A++)
 	{
-		putchar(A);
+		if (A == 'e' || A == 'q')
+		{
 		A++;
+		}
+		putchar(A);
 	}
+
 	putchar('\n');
 
 	return (0);
