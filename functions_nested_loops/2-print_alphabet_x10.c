@@ -9,7 +9,7 @@ void print_alphabet_x10(void)
 	char A = 'a';
 	int c = 48;
 
-	if(c <= 57)
+	while (c <= 57)
 	{
 		while (A <= 'z')
 		{
