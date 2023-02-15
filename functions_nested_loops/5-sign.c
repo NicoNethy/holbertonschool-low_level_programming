@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_sing - the function
+ * print_sign - the function
  * @n: integer
  * Return: allways
  */
