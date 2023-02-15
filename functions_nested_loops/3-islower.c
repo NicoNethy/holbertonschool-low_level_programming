@@ -2,6 +2,8 @@
 
 /**
  * _islower - function
+ * @c: the int
+ * Return: allways
  */
 
 int _islower(int c)
