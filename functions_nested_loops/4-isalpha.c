@@ -1,4 +1,9 @@
 #include "main.h"
+/**
+ * _isalpha - the function
+ * @c: is the int
+ * Return: allways
+ */
 
 int _isalpha(int c)
 {
