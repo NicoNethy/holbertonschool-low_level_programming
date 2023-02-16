@@ -1,6 +1,7 @@
 #include "main.h"
+
 /**
- *print_last_digit
+ *print_last_digit - coca
  *@i: the thing
  *Return: the value
  */
