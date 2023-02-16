@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _abs - the function
+ * @i: integer
  * Return: allways
  */
 
