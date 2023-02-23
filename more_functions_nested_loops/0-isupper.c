@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  *_isupper - the function
- *
+ *@c: the int
+ *Return: allways
  */
 
 int _isupper(int c)
