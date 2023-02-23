@@ -5,7 +5,7 @@
  * Return: void
  */
 
-void print_numbers(void)
+void print_most_numbers(void)
 {
 	int n;
 
@@ -14,6 +14,7 @@ void print_numbers(void)
 		if ((n == 50) || (n == 52))
 		{
 			n++;
+			_putchar(n);
 		}
 		else
 		{
