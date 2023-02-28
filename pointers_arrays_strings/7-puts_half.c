@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- *
- *
+ *puts_half - the function
+ *@i: an int
+ *@m: an int
  */
 
 void puts_half(char *str)
@@ -27,4 +28,5 @@ void puts_half(char *str)
 		_putchar(str[m]);
 		m++;
 	}
+	_putchar(10);
 }
