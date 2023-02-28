@@ -2,7 +2,8 @@
 
 /**
  *print_array - the function
- *
+ *@a: an int
+ *@n: an int
  */
 
 void print_array(int *a, int n)
