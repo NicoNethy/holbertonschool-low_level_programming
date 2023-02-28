@@ -2,8 +2,7 @@
 
 /**
  *puts_half - the function
- *@i: an int
- *@m: an int
+ *@str: bababooey
  */
 
 void puts_half(char *str)
