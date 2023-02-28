@@ -3,7 +3,7 @@
 /**
  *_strcpy - bababooey
  *@dest: destinatrion
- *@stc: sorce
+ *@src: sorce
  *Return: allways
  */
 
