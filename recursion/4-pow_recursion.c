@@ -2,8 +2,8 @@
 
 /**
  *_pow_recursion - the func
- *@x - an int
- *@y - the other int
+ *@x: an int
+ *@y: the other int
  *Return: the result
  */
 
