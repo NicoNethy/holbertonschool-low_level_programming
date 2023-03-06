@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  *factorial - the function
+ *@n: the number
  *Return: a lot of things
  */
 
