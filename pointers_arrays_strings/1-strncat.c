@@ -3,7 +3,7 @@
 /**
  *_strncat - the function
  *@dest: destiny once again
- *@src source string 
+ *@src source string
  *@n: number
  *Return: return dest
  */
