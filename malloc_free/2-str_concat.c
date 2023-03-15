@@ -54,6 +54,5 @@ char *str_concat(char *s1, char *s2)
 		coca[a] = s2[b];
 	}
 	}
-	coca[a] = '\0';
 	return (coca);
 }
