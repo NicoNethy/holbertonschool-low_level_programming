@@ -5,7 +5,7 @@
  *create_array - the function
  *@size: the size of the string
  *@c: the char
- :Return: the pointer
+ *Return: the pointer
  */
 
 char *create_array(unsigned int size, char c)
