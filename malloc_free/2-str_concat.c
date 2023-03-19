@@ -17,42 +17,39 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-
 	if (s1 != NULL)
 	{
-	for (a = 0; s1[a] != '\0'; a++)
-	{
-		;
+		for (a = 0; s1[a] != '\0'; a++)
+		{
+			;
+		}
 	}
-	}
-
 	if (s2 != NULL)
 	{
-	for (b = 0; s2[b] != '\0'; b++)
-	{
-		;
-	}
-	}
-
+		for (b = 0; s2[b] != '\0'; b++)
+		{	
+			;
+		}
+	}	
 	coca = malloc(sizeof(char) * (a + b) + 1);
-
 	if (coca == NULL)
 	{
 		return (NULL);
 	}
 	if (s1 != NULL)
 	{
-	for (a = 0; s1[a] != '\0'; a++)
-	{
-		coca[a] = s1[a];
-	}
+		for (a = 0; s1[a] != '\0'; a++)
+		{
+			coca[a] = s1[a];
+		}
 	}
 	if (s2 != NULL)
 	{
-	for (b = 0; s2[b] != '\0'; b++, a++)
-	{
-		coca[a] = s2[b];
+		for (b = 0; s2[b] != '\0'; b++)
+		{
+			coca[a + b] = s2[b];
+		}
 	}
-	}
+	coca[a + b] = '\0';
 	return (coca);
 }
