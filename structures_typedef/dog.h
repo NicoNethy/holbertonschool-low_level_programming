@@ -3,8 +3,9 @@
 
 /**
  *struct dog - the structure
- *
- *
+ *@name: is the name
+ *@age: the age of the dog
+ *@owner: is the name but is the name of the owner
  */
 
 typedef struct dog
