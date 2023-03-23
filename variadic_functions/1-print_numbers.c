@@ -18,13 +18,13 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	for (a = 0; a < n; a++)
 	{
+		b = va_arg(coca, int);
+		printf("%d", b);
+
 		if (separator != NULL)
 		{
 			printf("%s", separator);
 		}
-
-		b = va_arg(coca, int);
-		printf("%d", b);
 	}
 	va_end(coca);
 	printf("\n");
