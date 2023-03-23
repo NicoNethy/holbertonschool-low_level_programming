@@ -28,7 +28,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 	{
 		a++;
 		inx = cmp(array[a]);
-	
+
 		if (inx != 0)
 		{
 			return (a);
