@@ -1,5 +1,11 @@
 #include "3-calc.h"
 
+/**
+ * get_op_func - the function tat gets the operator
+ * @s: the operator
+ * Return: allways as allways
+ */
+
 int (*get_op_func(char *s))(int, int)
 
 {
@@ -15,7 +21,7 @@ int (*get_op_func(char *s))(int, int)
 
 	while (i < 5)
 	{
-		if(strcmp(s, ops[i].op) == 0)
+		if (strcmp(s, ops[i].op) == 0)
 		{
 			return (ops[i].f);
 		}
