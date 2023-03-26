@@ -1,4 +1,4 @@
-#include "main.h"
+#include "calc.h"
 
 /**
  * op_add - the function
