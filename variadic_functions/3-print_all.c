@@ -11,7 +11,7 @@ void print_all(const char * const format, ...)
 {
 	va_list list;
 	int i = 0;
-	int l = 0   	
+	int l = 0;
 	int a = 0;
 	char c = '\0';
 	float f = 0.0;
@@ -55,13 +55,13 @@ void print_all(const char * const format, ...)
 	va_end(list);
 }
 	int
-printInt(int b)
+printChar(int b)
 {
 	printf("%c", b);
 	return (1);
 }
 	int
-printChar(int b)
+printInt(int b)
 {
 	printf("%i", b);
 	return (1);
