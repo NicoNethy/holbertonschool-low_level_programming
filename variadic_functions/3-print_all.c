@@ -3,16 +3,16 @@
 #include<stdarg.h>
 
 /**
- *
- *
- *
+ *print_all - the function
+ *@format: the format of the operator
  */
 
 void print_all(const char * const format, ...)
-
 {
 	va_list list;
-	int i = 0, l = 0, a = 0;
+	int i = 0;
+	int l = 0   	
+	int a = 0;
 	char c = '\0';
 	float f = 0.0;
 	char *s = NULL;
@@ -54,7 +54,6 @@ void print_all(const char * const format, ...)
 	printf("\n");
 	va_end(list);
 }
-
 	int
 printInt(int b)
 {
