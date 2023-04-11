@@ -1,4 +1,4 @@
-fndef LINK_H
+#ifndef LINK_H
 #define LINK_H
 
 #include <stdio.h>
@@ -9,10 +9,10 @@ fndef LINK_H
 #include <stddef.h>
 
 /**
- * struct list_s - singly linked list
- * @str: string - (malloc'ed string)
- * @len: length of the string
- * @next: points to the next node
+ * struct list_s - func
+ * @str: string
+ * @len: len of str
+ * @next: points the next node
  */
 typedef struct list_s
 {
