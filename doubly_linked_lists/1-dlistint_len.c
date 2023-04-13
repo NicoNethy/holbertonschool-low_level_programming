@@ -1,9 +1,8 @@
 #include "lists.h"
 
 /**
- * add_dnodeint - function
- * @head: da list
- * @n: the int
+ * dlistint_len - function
+ * @h: da list
  * Return: the allways
  */
 
