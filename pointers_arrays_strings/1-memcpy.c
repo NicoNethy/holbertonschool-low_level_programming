@@ -3,7 +3,7 @@
 
 	char
 
-*_memcpy(char *dest, char *src, unsigned int n 2023 Git)
+*_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int cont = 0;
 
