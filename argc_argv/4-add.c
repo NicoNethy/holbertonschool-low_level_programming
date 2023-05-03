@@ -8,13 +8,13 @@
  */
 
 
-main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int res = 0;
 	int counter = 1;
 	int counter2 = 0;
 
-	while (count < argc)
+	while (counter < argc)
 	{
 		while (argv[counter][counter2])
 		{
